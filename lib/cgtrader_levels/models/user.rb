@@ -24,7 +24,7 @@ class CgtraderLevels::User < ActiveRecord::Base
     if matching_level
       self.level = matching_level
 
-      on_level_up if should_level_up?
+      on_level_up
     end
   end
 
