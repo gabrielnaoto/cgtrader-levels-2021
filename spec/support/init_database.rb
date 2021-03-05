@@ -3,6 +3,8 @@ require 'rspec'
 
 RSpec.configure do |config|
   config.before :suite do
+    ActiveRecord::Base.logger = Logger.new(STDOUT)
+
     ActiveRecord::Base.establish_connection(
       adapter: 'sqlite3',
       database: ':memory:'

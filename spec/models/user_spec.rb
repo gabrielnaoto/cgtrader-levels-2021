@@ -1,5 +1,4 @@
 require 'cgtrader_levels'
-require 'active_record'
 
 describe CgtraderLevels::User do
   describe 'new user' do
@@ -35,7 +34,7 @@ describe CgtraderLevels::User do
 
       expect {
         @user.update_attribute(:reputation, 11)
-      }.to change { @user.reload.level }.from(@level_1).to(@level_2)
+      }.to change { @user.reload.level }.from(@level_1).to(@level_3)
     end
   end
 

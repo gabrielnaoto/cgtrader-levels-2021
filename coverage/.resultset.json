@@ -14,7 +14,6 @@
       "/Users/gabrielnaoto/Downloads/cgtrader_levels_2021/spec/models/user_spec.rb": {
         "lines": [
           1,
-          1,
           null,
           1,
           1,
@@ -73,6 +72,8 @@
       "/Users/gabrielnaoto/Downloads/cgtrader_levels_2021/lib/cgtrader_levels/models/user.rb": {
         "lines": [
           1,
+          null,
+          1,
           1,
           null,
           1,
@@ -94,8 +95,8 @@
           3,
           null,
           3,
-          1,
-          1,
+          2,
+          2,
           null,
           null,
           null
@@ -104,10 +105,30 @@
       "/Users/gabrielnaoto/Downloads/cgtrader_levels_2021/lib/cgtrader_levels/models/level.rb": {
         "lines": [
           1,
+          null,
+          1,
+          1,
+          14,
+          null,
+          null,
+          null,
+          null,
+          1,
+          14,
+          null,
+          14,
+          7,
+          null,
+          null,
+          null,
+          null,
+          null,
+          7,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1614973238
+    "timestamp": 1614977147
   }
 }
