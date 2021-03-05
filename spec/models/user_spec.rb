@@ -1,3 +1,6 @@
+require 'cgtrader_levels'
+require 'active_record'
+
 describe CgtraderLevels::User do
   describe 'new user' do
     it 'has 0 reputation points' do
