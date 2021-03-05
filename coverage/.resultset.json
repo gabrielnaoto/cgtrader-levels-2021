@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/vilius/Downloads/levels 8/lib/cgtrader_levels.rb": {
+      "/Users/gabrielnaoto/Downloads/cgtrader_levels_2021/lib/cgtrader_levels.rb": {
         "lines": [
           1,
           null,
@@ -11,8 +11,11 @@
           null
         ]
       },
-      "/Users/vilius/Downloads/levels 8/spec/models/user_spec.rb": {
+      "/Users/gabrielnaoto/Downloads/cgtrader_levels_2021/spec/models/user_spec.rb": {
         "lines": [
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -67,7 +70,7 @@
           null
         ]
       },
-      "/Users/vilius/Downloads/levels 8/lib/cgtrader_levels/models/user.rb": {
+      "/Users/gabrielnaoto/Downloads/cgtrader_levels_2021/lib/cgtrader_levels/models/user.rb": {
         "lines": [
           1,
           1,
@@ -98,13 +101,13 @@
           null
         ]
       },
-      "/Users/vilius/Downloads/levels 8/lib/cgtrader_levels/models/level.rb": {
+      "/Users/gabrielnaoto/Downloads/cgtrader_levels_2021/lib/cgtrader_levels/models/level.rb": {
         "lines": [
           1,
           null
         ]
       }
     },
-    "timestamp": 1613144260
+    "timestamp": 1614973238
   }
 }

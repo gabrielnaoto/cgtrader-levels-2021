@@ -1,3 +1,6 @@
+require 'active_record'
+require 'rspec'
+
 RSpec.configure do |config|
   config.before :each do
     ActiveRecord::Base.connection.tap do |connection|
