@@ -12,7 +12,7 @@ RSpec.configure do |config|
 
     ActiveRecord::Base.connection.create_table :users do |table|
       table.string :username
-      table.integer :reputation
+      table.integer :reputation, default: 0
       table.decimal :coins, default: 0
       table.decimal :tax, default: 30
       table.references :level
@@ -21,6 +21,8 @@ RSpec.configure do |config|
     ActiveRecord::Base.connection.create_table :levels do |table|
       table.string :title
       table.integer :experience
+      table.decimal :bonus_coins
+      table.decimal :tax_reduction
     end
   end
 end

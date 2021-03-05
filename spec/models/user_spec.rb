@@ -40,13 +40,15 @@ describe CgtraderLevels::User do
 
   describe 'level up bonuses & privileges' do
     it 'gives 7 coins to user' do
-      pending
+      initial_coins = 1
 
-      @user = CgtraderLevels::User.create!(coins: 1)
+      @level_1 = CgtraderLevels::Level.create!(experience: 0, title: 'First level')
+      @level_2 = CgtraderLevels::Level.create!(experience: 10, title: 'Second level', bonus_coins: 7)
+      @user = CgtraderLevels::User.create!(coins: initial_coins)
 
       expect {
         @user.update_attribute(:reputation, 10)
-      }.to change { @user.reload.coins }.from(1).to(8)
+      }.to change { @user.reload.coins }.from(initial_coins).to(initial_coins + @level_2.bonus_coins)
     end
 
     it 'reduces tax rate by 1'
